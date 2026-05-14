@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: oauth-jwt-mock-api
+
+jwt:
+  secret: "4fy8iyoUrYi5t/t4DrIU2GCsmx1EenpRVtTTXu1O++M="
+  expiration-ms: 3600000
+
+logging:
+  level:
+    com.demo.mockapi: INFO
+    org.springframework.security: WARN
